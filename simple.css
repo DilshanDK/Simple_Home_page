@@ -1,0 +1,134 @@
+.main {
+    display: block;
+    width: 90%;
+    height: 100%;
+    justify-content: space-around;
+    background-color: aqua;
+    margin: auto;
+}
+
+.head {
+    width: auto;
+    background-color: antiquewhite;
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    width: auto;
+    height: 70px;
+    background-color: blueviolet;
+}
+
+.content {
+    margin-top: -14px;
+    width: auto;
+    height: 500px;
+    background-color: blue;
+}
+
+.foot {
+    width: auto;
+    height: 100px;
+    background-color: bisque;
+}
+
+.lis {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.all {
+    width: 800px;
+    margin-top: 12px;
+}
+
+.one {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 20px 10px;
+    border-radius: 12px;
+    background-color: rgb(109, 78, 78);
+
+}
+
+.ball {
+    position: absolute;
+    width: 500px;
+    justify-content: space-around;
+    margin: 25 0 0 1150;
+}
+
+.ioc {
+    font-size: 40px;
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 10px 80px 0px 40px;
+}
+
+.content {
+    margin-top: -200px;
+    text-align: center;
+    height: 600px;
+    background-image: url(pace.jpg);
+    background-size: cover;
+    
+}
+
+.para1 {
+    margin-top: 200px;
+    padding-top: 150px;
+    font-size: 70px;
+}
+
+.para2 {
+    margin-top: -40px;
+    font-size: 20px;
+}
+.abov{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px; 
+    background-color: transparent;
+    border: 2px solid black ;
+    border-radius: 30px;
+
+}
+.sub{
+    width: 200px;
+    margin-left: 30px;
+    height: 50px; 
+    background-color: white;
+    border: 2px solid white ;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+
+}
+.btn{
+    background-color: aqua;
+    border-radius: 8px;
+    height: 30px;
+    width: 70px;
+    font-size: 15px;
+    margin-right: 12px;
+}
+.one:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+.btn:hover{
+    background-color:green ;
+    color: white;
+}
+.sub:hover{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+.abov:hover{
+    color: white;
+    border-color: white
+}
